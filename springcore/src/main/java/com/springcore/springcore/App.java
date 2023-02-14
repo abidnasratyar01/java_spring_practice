@@ -16,5 +16,11 @@ public class App
         Student std = (Student) context.getBean("student1");
         System.out.println(std);
         
+        Student std2 = (Student) context.getBean("student2");
+        System.out.println(std2);
+        
+        Student std3 = (Student) context.getBean("student3");
+        System.out.println(std3);
+        
     }
 }
